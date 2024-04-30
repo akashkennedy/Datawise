@@ -12,10 +12,18 @@
         padding: 1rem;
         color: white;
     }
+
     .btn-secondary {
         border: 1px solid #3A732680;
         background: transparent;
         color: #3A7326;
+    }
+    .info {
+        color: #3C403A;
+        font-weight: 500;
+        opacity: 0.7;
+        font-size: 20px;
+        letter-spacing: normal;
     }
 }
 
