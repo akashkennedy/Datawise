@@ -1,3 +1,11 @@
-export default function App() {
-  return <h1 className="text-center font-bold underline">Hello world!</h1>;
-}
+import Header from "./sections/Header.jsx";
+
+const App = () => {
+  return (
+    <main>
+      <Header />
+    </main>
+  );
+};
+
+export default App;
