@@ -2,7 +2,7 @@ import { logo1, logo2, logo3, logo4, logo5, logo6 } from "../assets/index.js";
 
 const Partners = () => {
   return (
-    <section className="mb-10 flex items-center justify-around p-5">
+    <section className="mt-48 flex items-center justify-around gap-3 p-5 md:mt-0 lg:mt-0">
       <img src={logo1} alt="logo1" />
       <img src={logo2} alt="logo2" />
       <img src={logo3} alt="logo3" className="hidden md:block lg:block" />
