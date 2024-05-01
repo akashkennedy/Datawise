@@ -19,7 +19,7 @@ const AboutUs = () => {
         {stats.map((stat) => (
           <div key={stat.id} className="size-38 flex flex-col">
             <div className="text-2xl font-bold">{stat.count}</div>
-            <div className="info font-normal">{stat.desc}</div>
+            <p className="info font-normal">{stat.desc}</p>
           </div>
         ))}
       </div>

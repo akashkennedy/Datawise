@@ -2,6 +2,7 @@ import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Partners from "./sections/Partners.jsx";
 import AboutUs from "./sections/AboutUs.jsx"
+import Solutions from "./sections/Solutions.jsx";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <Partners />
         <AboutUs />
+        <Solutions />
       </main>
     </>
   );
