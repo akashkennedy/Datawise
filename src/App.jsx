@@ -1,9 +1,10 @@
 import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Partners from "./sections/Partners.jsx";
-import AboutUs from "./sections/AboutUs.jsx"
+import AboutUs from "./sections/AboutUs.jsx";
 import Solutions from "./sections/Solutions.jsx";
 import Blogs from "./sections/Blogs.jsx";
+import Analytics from "./sections/Analytics.jsx";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <AboutUs />
         <Solutions />
         <Blogs />
+        <Analytics />
       </main>
     </>
   );
