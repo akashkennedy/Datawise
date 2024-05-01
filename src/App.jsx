@@ -5,6 +5,7 @@ import AboutUs from "./sections/AboutUs.jsx";
 import Solutions from "./sections/Solutions.jsx";
 import Blogs from "./sections/Blogs.jsx";
 import Analytics from "./sections/Analytics.jsx";
+import Faqs from "./sections/Faqs.jsx";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Solutions />
         <Blogs />
         <Analytics />
+        <Faqs />
       </main>
     </>
   );
