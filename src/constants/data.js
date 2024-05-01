@@ -126,7 +126,7 @@ export const blogReports = [
     id: 1,
     type: "Report",
     title:
-      "Stay updated with the latest trends, tips, and insights in business analytics. Explore our curated articles designed to empower your data-driven journey.",
+      "The Rise of AI in Business Analytics: What You Need to Know",
     url: blog1,
   },
   {
