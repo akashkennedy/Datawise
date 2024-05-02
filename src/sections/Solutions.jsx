@@ -23,7 +23,7 @@ const Solutions = () => {
               <div className="w-8/12 text-2xl font-semibold">
                 {item.heading}
               </div>
-              <p className="info font-normal">{item.desc}</p>
+              <p className="info ">{item.desc}</p>
             </div>
           </div>
         ))}

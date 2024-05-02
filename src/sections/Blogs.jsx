@@ -9,9 +9,7 @@ const Blogs = () => {
       </h4>
       <div className="mb-10 space-y-5">
         <h1 className="text-center text-4xl font-semibold">{blogs.heading}</h1>
-        <p className="info mx-auto w-5/6 text-center font-normal">
-          {blogs.info}
-        </p>
+        <p className="info mx-auto w-5/6 text-center ">{blogs.info}</p>
       </div>
       <div className="flex flex-col items-center justify-between gap-10 md:grid md:grid-cols-2 lg:flex lg:flex-row">
         {blogReports.map((item) => (
