@@ -16,7 +16,7 @@ const Footer = () => {
           <h6 className="mb-3 font-semibold">About</h6>
           {footerAbout.map((link) => (
             <ul key={link.id}>
-              <li className="info mb-2 text-sm font-normal">
+              <li className="info mb-2 text-sm ">
                 <a href="#">{link.title}</a>
               </li>
             </ul>
@@ -26,7 +26,7 @@ const Footer = () => {
           <h6 className="mb-3 font-semibold">Resources</h6>
           {footerResources.map((link) => (
             <ul key={link.id}>
-              <li className="info mb-2 text-sm font-normal">
+              <li className="info mb-2 text-sm ">
                 <a href="#">{link.title}</a>
               </li>
             </ul>
@@ -36,7 +36,7 @@ const Footer = () => {
           <h6 className="mb-3 font-semibold">Support & Contact</h6>
           {footerSupport.map((link) => (
             <ul key={link.id}>
-              <li className="info mb-2 text-sm font-normal">
+              <li className="info mb-2 text-sm ">
                 <a href="#">{link.title}</a>
               </li>
             </ul>

@@ -9,17 +9,17 @@ const AboutUs = () => {
         <h4 className="mb-3 text-center text-lg font-semibold text-green md:text-left lg:text-left">
           ABOUT US
         </h4>
-        <h1 className="text-4xl font-semibold">{aboutUs.heading}</h1>
+        <h1 className="text-4xl">{aboutUs.heading}</h1>
       </div>
       <div className="w-[80%] space-y-5">
-        <p className="info font-normal">{aboutUs.info}</p>
-        <p className="info font-normal">{aboutUs.info2}</p>
+        <p className="info">{aboutUs.info}</p>
+        <p className="info">{aboutUs.info2}</p>
       </div>
       <div className="grid grid-cols-2 justify-start gap-10 lg:flex lg:w-1/2">
         {stats.map((stat) => (
           <div key={stat.id} className="size-38 flex flex-col">
             <div className="text-2xl font-bold">{stat.count}</div>
-            <p className="info font-normal">{stat.desc}</p>
+            <p className="info">{stat.desc}</p>
           </div>
         ))}
       </div>
