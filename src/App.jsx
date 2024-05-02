@@ -1,12 +1,14 @@
-import Header from "./sections/Header.jsx";
-import Hero from "./sections/Hero.jsx";
-import Partners from "./sections/Partners.jsx";
-import AboutUs from "./sections/AboutUs.jsx";
-import Solutions from "./sections/Solutions.jsx";
-import Blogs from "./sections/Blogs.jsx";
-import Analytics from "./sections/Analytics.jsx";
-import Faqs from "./sections/Faqs.jsx";
-import Footer from "./sections/Footer.jsx";
+import {
+  Hero,
+  Analytics,
+  Header,
+  Footer,
+  Partners,
+  Blogs,
+  AboutUs,
+  Faqs,
+  Solutions,
+} from "./sections/index.js";
 
 const App = () => {
   return (
