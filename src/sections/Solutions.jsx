@@ -8,7 +8,7 @@ const Solutions = () => {
         <h4 className="mb-3 text-center text-lg font-semibold text-green">
           SOLUTIONS
         </h4>
-        <h1 className="text-center text-4xl font-semibold">
+        <h1 className="text-center text-4xl">
           {solutions.heading}
         </h1>
       </div>

@@ -9,7 +9,7 @@ const AboutUs = () => {
         <h4 className="mb-3 text-center text-lg font-semibold text-green md:text-left lg:text-left">
           ABOUT US
         </h4>
-        <h1 className="text-4xl font-semibold">{aboutUs.heading}</h1>
+        <h1 className="text-4xl">{aboutUs.heading}</h1>
       </div>
       <div className="w-[80%] space-y-5">
         <p className="info ">{aboutUs.info}</p>

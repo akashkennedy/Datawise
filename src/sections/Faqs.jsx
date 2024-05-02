@@ -6,7 +6,7 @@ const Faqs = () => {
     <section className="mt-10 lg:mt-28">
       <h4 className="mb-3 text-lg font-semibold text-green">FAQS</h4>
       <div className="mb-8 space-y-3">
-        <h1 className="text-4xl font-semibold">{faq.heading}</h1>
+        <h1 className="text-4xl">{faq.heading}</h1>
         <p className="info  lg:w-1/2">{faq.desc}</p>
       </div>
       <div className="flex flex-col gap-10 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
