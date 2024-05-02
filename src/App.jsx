@@ -6,6 +6,7 @@ import Solutions from "./sections/Solutions.jsx";
 import Blogs from "./sections/Blogs.jsx";
 import Analytics from "./sections/Analytics.jsx";
 import Faqs from "./sections/Faqs.jsx";
+import Footer from "./sections/Footer.jsx";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Blogs />
         <Analytics />
         <Faqs />
+        <Footer />
       </main>
     </>
   );

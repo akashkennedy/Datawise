@@ -8,7 +8,7 @@ import Button from "../components/Button.jsx";
 
 const Header = () => {
   return (
-    <header className="mx-5 flex h-20 items-center justify-between border-b border-b-gray/25 p-5 md:mx-8 lg:mx-10">
+    <header className="mx-5 flex h-20 items-center justify-between border-b border-b-gray/25 p-5 md:mx-8 lg:mx-10" id="header">
       <div className="flex items-center gap-10">
         <img src={Logo} alt="Datawise" />
         <nav className="hidden lg:block">
